@@ -4,7 +4,7 @@
     "slug": "forgefit",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "forgefit",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -17,9 +17,8 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0A0F14",
-        "foregroundImage": "./assets/images/padded-icon.png"
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
-      "predictiveBackGestureEnabled": false,
       "package": "com.achadev.forgefit",
       "permissions": [
         "POST_NOTIFICATIONS"
@@ -46,16 +45,11 @@
       "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "074a5da9-2317-4358-9647-1ef6f94140ad"
-      }
-    },
     "plugins": [
       [
         "expo-splash-screen",
         {
-          "image": "./assets/logo.png",
+          "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#F4F7F9",
@@ -65,6 +59,11 @@
         }
       ]
     ],
-    "owner": "achadev-solutions"
+    "owner": "achadev-solutions",
+    "extra": {
+      "eas": {
+        "projectId": "7e26d0a5-213a-40b4-9be9-aed1a631797d"
+      }
+    }
   }
 }
