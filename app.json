@@ -47,6 +47,23 @@
     },
     "plugins": [
       [
+        "expo-build-properties",
+        {
+          "android": {
+            "ndkVersion": "26.1.10909125",
+            "cmakeVersion": "3.22.1"
+          }
+        }
+      ],
+      "./plugins/with-expo-sqlite-download-fix.js",
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": true,
+          "useSQLCipher": false
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",

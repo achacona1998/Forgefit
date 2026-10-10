@@ -1,4 +1,4 @@
-import * as SQLite from "@op-engineering/op-sqlite";
+import * as SQLite from "expo-sqlite";
 
 export type Db = SQLite.SQLiteDatabase;
 
