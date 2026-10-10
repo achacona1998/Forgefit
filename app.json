@@ -57,13 +57,6 @@
       ],
       "./plugins/with-expo-sqlite-download-fix.js",
       [
-        "expo-sqlite",
-        {
-          "enableFTS": true,
-          "useSQLCipher": false
-        }
-      ],
-      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
